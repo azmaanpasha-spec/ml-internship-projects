@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-06-29 10:00:00",
+  "alert_threshold": 0.15,
+  "machines_monitored": 80,
+  "alerts": [
+    {
+      "machine_id": "MCH-074",
+      "machine_type": "Screw Compressor",
+      "criticality": "High",
+      "failure_risk": 0.7756,
+      "risk_band": "Critical",
+      "trend": "rising",
+      "risk_change_24h": 0.4842,
+      "symptoms": "oil quality degrading; overdue for scheduled service; a sensor far outside this machine's normal range",
+      "recommended_action": "Stop and inspect before next shift",
+      "as_of": "2026-06-29 10:00:00"
+    },
+    {
+      "machine_id": "MCH-026",
+      "machine_type": "Screw Compressor",
+      "criticality": "Medium",
+      "failure_risk": 0.5811,
+      "risk_band": "Alert",
+      "trend": "rising",
+      "risk_change_24h": 0.5105,
+      "symptoms": "elevated vibration; a sensor far outside this machine's normal range; overdue for scheduled service",
+      "recommended_action": "Schedule inspection within 24 hours",
+      "as_of": "2026-06-29 10:00:00"
+    },
+    {
+      "machine_id": "MCH-068",
+      "machine_type": "Gas Turbine",
+      "criticality": "Medium",
+      "failure_risk": 0.5094,
+      "risk_band": "Alert",
+      "trend": "rising",
+      "risk_change_24h": 0.4093,
+      "symptoms": "oil quality degrading; a sensor far outside this machine's normal range; overdue for scheduled service",
+      "recommended_action": "Schedule inspection within 24 hours",
+      "as_of": "2026-06-28 21:00:00"
+    },
+    {
+      "machine_id": "MCH-076",
+      "machine_type": "Gas Turbine",
+      "criticality": "Medium",
+      "failure_risk": 0.2765,
+      "risk_band": "Alert",
+      "trend": "stable",
+      "risk_change_24h": 0.0298,
+      "symptoms": "oil quality degrading; drawing excess power for the current speed; overdue for scheduled service",
+      "recommended_action": "Schedule inspection within 24 hours",
+      "as_of": "2026-06-28 00:00:00"
+    },
+    {
+      "machine_id": "MCH-018",
+      "machine_type": "Screw Compressor",
+      "criticality": "Medium",
+      "failure_risk": 0.1624,
+      "risk_band": "Alert",
+      "trend": "rising",
+      "risk_change_24h": 0.0982,
+      "symptoms": "oil quality degrading; overdue for scheduled service; speed deviating from nominal",
+      "recommended_action": "Schedule inspection within 24 hours",
+      "as_of": "2026-06-28 23:00:00"
+    },
+    {
+      "machine_id": "MCH-038",
+      "machine_type": "Screw Compressor",
+      "criticality": "High",
+      "failure_risk": 0.1624,
+      "risk_band": "Alert",
+      "trend": "rising",
+      "risk_change_24h": 0.1077,
+      "symptoms": "oil quality degrading; overdue for scheduled service; speed deviating from nominal",
+      "recommended_action": "Schedule inspection within 24 hours",
+      "as_of": "2026-06-28 23:00:00"
+    }
+  ],
+  "band_counts": {
+    "Normal": 62,
+    "Watch": 12,
+    "Alert": 5,
+    "Critical": 1
+  }
+}

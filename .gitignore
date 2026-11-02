@@ -1,0 +1,33 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# ----------------------------------------------------------------------------------
+# Generated data and trained models are NOT committed: ~203 MB, and every byte of it
+# is reproducible with `python run_all.py`. The generators are seeded, so a fresh run
+# reproduces the exact datasets and metrics quoted in the READMEs and REPORT.md.
+# ----------------------------------------------------------------------------------
+*/data/
+*/models/
+
+# ----------------------------------------------------------------------------------
+# Reports ARE committed (~2 MB). The figures are the evidence REPORT.md refers to, so
+# excluding them would leave the report's figure references broken on GitHub, and the
+# metrics JSON is small enough to be genuinely useful in a diff.
+# ----------------------------------------------------------------------------------
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~

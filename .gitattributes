@@ -1,0 +1,8 @@
+# Normalise line endings in the repository to LF, and check out native on each platform.
+# Without this, Windows checkouts commit CRLF and every diff looks like a full rewrite.
+* text=auto eol=lf
+
+# Binary assets Git must never try to normalise or diff as text.
+*.png binary
+*.joblib binary
+*.parquet binary

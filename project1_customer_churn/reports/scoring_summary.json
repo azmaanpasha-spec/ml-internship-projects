@@ -1,0 +1,44 @@
+{
+  "scored_customers": 8000,
+  "shortlist_size": 500,
+  "total_revenue_at_risk": 2199226.48,
+  "risk_bands": [
+    {
+      "risk_band": "Critical",
+      "customers": 925,
+      "mean_probability": 0.8404,
+      "revenue_at_risk": 841076.95,
+      "actual_churn_rate": 0.8854
+    },
+    {
+      "risk_band": "High",
+      "customers": 757,
+      "mean_probability": 0.5893,
+      "revenue_at_risk": 462126.38,
+      "actual_churn_rate": 0.6684
+    },
+    {
+      "risk_band": "Medium",
+      "customers": 923,
+      "mean_probability": 0.3973,
+      "revenue_at_risk": 371466.31,
+      "actual_churn_rate": 0.4215
+    },
+    {
+      "risk_band": "Low",
+      "customers": 5395,
+      "mean_probability": 0.1002,
+      "revenue_at_risk": 524556.84,
+      "actual_churn_rate": 0.0736
+    }
+  ],
+  "top_actions": {
+    "Onboarding check-in call and first-year loyalty credit": 230,
+    "Offer a discounted 12-month term to lock in tenure": 93,
+    "Priority retention call": 77,
+    "Service-recovery call from a retention specialist": 72,
+    "Offer autopay enrolment with a small billing incentive": 12,
+    "Pre-emptive goodwill credit or price-lock offer": 11,
+    "Re-engagement outreach with a usage-based incentive": 5
+  }
+}
