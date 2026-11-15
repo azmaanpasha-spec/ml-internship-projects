@@ -1,0 +1,15 @@
+# Pinned so the three apps look identical regardless of the viewer's Streamlit
+# settings. The palette matches common/ui.py.
+[theme]
+base = "dark"
+primaryColor = "#5B8DEF"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B26"
+textColor = "#E6EAF0"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true
+
+[browser]
+gatherUsageStats = false

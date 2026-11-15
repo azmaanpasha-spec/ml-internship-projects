@@ -16,7 +16,7 @@
       "tp": 2143
     },
     "cv_pr_auc": 0.5163,
-    "fit_seconds": 61.6,
+    "fit_seconds": 56.4,
     "best_params": {
       "C": 0.001
     }
@@ -38,7 +38,7 @@
       "tp": 2133
     },
     "cv_pr_auc": 0.5514,
-    "fit_seconds": 130.3,
+    "fit_seconds": 122.0,
     "best_params": {
       "n_estimators": 120,
       "min_samples_leaf": 50,
@@ -63,7 +63,7 @@
       "tp": 2122
     },
     "cv_pr_auc": 0.5552,
-    "fit_seconds": 147.8,
+    "fit_seconds": 130.0,
     "best_params": {
       "subsample": 0.7,
       "reg_lambda": 3.0,
@@ -91,7 +91,7 @@
       "tp": 1965
     },
     "cv_pr_auc": 0.5574,
-    "fit_seconds": 110.8,
+    "fit_seconds": 103.5,
     "best_params": {
       "subsample": 0.9,
       "num_leaves": 63,
